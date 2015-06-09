@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 from __future__ import print_function
 import lxml.etree as etree 
 import uuid
@@ -16,8 +15,9 @@ def go(xml_file):
     
     print("Validating", xml_file)
     # Setup the parser and open the file
+    print(__file__)
     schema_root = etree.parse(os.path.dirname(__file__) + \
-        "/iso19139.anzlic/schema/gmd/gmd.xsd")
+        "iso19139.anzlic/schema/gmd/gmd.xsd")
     schema = etree.XMLSchema(schema_root)
     parser = etree.XMLParser(schema = schema)
     tree = etree.parse(xml_file, parser)

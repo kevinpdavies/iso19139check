@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
+<gmd:fileIdentifier>
+    <gco:CharacterString>ea08a9da-48d3-4bff-b9f0-d0e81399cb30</gco:CharacterString>
+</gmd:fileIdentifier>
+<gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</gmd:LanguageCode>
+</gmd:language>
+<gmd:characterSet>
+<gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</gmd:MD_CharacterSetCode>
+</gmd:characterSet>
+<gmd:hierarchyLevel>
+<gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</gmd:MD_ScopeCode>
+</gmd:hierarchyLevel>
+<gmd:hierarchyLevelName>
+<gco:CharacterString>dataset</gco:CharacterString>
+</gmd:hierarchyLevelName>
+<gmd:contact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>
+Australian Government Department of the Environment
+</gco:CharacterString>
+</gmd:organisationName>
+<gmd:positionName>
+<gco:CharacterString>Vegetation Data Manager</gco:CharacterString>
+</gmd:positionName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:phone>
+<gmd:CI_Telephone>
+<gmd:voice>
+<gco:CharacterString>02 6274 1111</gco:CharacterString>
+</gmd:voice>
+<gmd:facsimile>
+<gco:CharacterString>02 6274 1666</gco:CharacterString>
+</gmd:facsimile>
+</gmd:CI_Telephone>
+</gmd:phone>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:deliveryPoint>
+<gco:CharacterString>GPO Box 787</gco:CharacterString>
+</gmd:deliveryPoint>
+<gmd:city>
+<gco:CharacterString>Canberra</gco:CharacterString>
+</gmd:city>
+<gmd:administrativeArea>
+<gco:CharacterString>ACT</gco:CharacterString>
+</gmd:administrativeArea>
+<gmd:postalCode>
+<gco:CharacterString>2601</gco:CharacterString>
+</gmd:postalCode>
+<gmd:country>
+<gmd:Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="AU" codeSpace="ISO3166-1">AU</gmd:Country>
+</gmd:country>
+<gmd:electronicMailAddress>
+<gco:CharacterString>vegetation.metadata@environment.gov.au</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+<gmd:onlineResource>
+<gmd:CI_OnlineResource>
+<gmd:linkage>
+<gmd:URL>http://www.environment.gov.au/</gmd:URL>
+</gmd:linkage>
+</gmd:CI_OnlineResource>
+</gmd:onlineResource>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:contact>
+<gmd:dateStamp>
+<gco:Date>2012-08-13</gco:Date>
+</gmd:dateStamp>
+<gmd:metadataStandardName>
+<gco:CharacterString>
+ISO 19139 Geographic Information - Metadata - Implementation Specification
+</gco:CharacterString>
+</gmd:metadataStandardName>
+<gmd:metadataStandardVersion>
+<gco:CharacterString>2007</gco:CharacterString>
+</gmd:metadataStandardVersion>
+<gmd:dataSetURI>
+<gco:CharacterString>C:\temp\temporary_metadata.xml</gco:CharacterString>
+</gmd:dataSetURI>
+<gmd:referenceSystemInfo>
+<gmd:MD_ReferenceSystem>
+<gmd:referenceSystemIdentifier>
+<gmd:RS_Identifier>
+<gmd:code>
+<gco:CharacterString>3577</gco:CharacterString>
+</gmd:code>
+<gmd:codeSpace>
+<gco:CharacterString>EPSG</gco:CharacterString>
+</gmd:codeSpace>
+<gmd:version>
+<gco:CharacterString>8.1.1</gco:CharacterString>
+</gmd:version>
+</gmd:RS_Identifier>
+</gmd:referenceSystemIdentifier>
+</gmd:MD_ReferenceSystem>
+</gmd:referenceSystemInfo>
+<gmd:identificationInfo>
+<gmd:MD_DataIdentification>
+<gmd:citation>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>
+Australia - Estimated Pre1750 Major Vegetation Groups - NVIS Version 4.1 (Albers 100m analysis product)
+</gco:CharacterString>
+</gmd:title>
+<gmd:alternateTitle>
+<gco:CharacterString>VEGETATION_SDE.NVIS4_1_AUST_MVG_PRE_ALB</gco:CharacterString>
+</gmd:alternateTitle>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:Date>2012-07-06</gco:Date>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" codeSpace="ISOTC211/19115">creation</gmd:CI_DateTypeCode>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:Date>2012-07-12</gco:Date>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+<gmd:identifier>
+<gmd:MD_Identifier>
+<gmd:code gco:nilReason="missing"/>
+</gmd:MD_Identifier>
+</gmd:identifier>
+<gmd:citedResponsibleParty>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>
+Australian Government Department of the Environment
+</gco:CharacterString>
+</gmd:organisationName>
+<gmd:positionName>
+<gco:CharacterString>Vegetation Data Manager</gco:CharacterString>
+</gmd:positionName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:phone>
+<gmd:CI_Telephone>
+<gmd:voice>
+<gco:CharacterString>02 6274 1111</gco:CharacterString>
+</gmd:voice>
+<gmd:facsimile>
+<gco:CharacterString>02 6274 1666</gco:CharacterString>
+</gmd:facsimile>
+</gmd:CI_Telephone>
+</gmd:phone>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:deliveryPoint>
+<gco:CharacterString>GPO Box 787</gco:CharacterString>
+</gmd:deliveryPoint>
+<gmd:city>
+<gco:CharacterString>Canberra</gco:CharacterString>
+</gmd:city>
+<gmd:administrativeArea>
+<gco:CharacterString>ACT</gco:CharacterString>
+</gmd:administrativeArea>
+<gmd:postalCode>
+<gco:CharacterString>2601</gco:CharacterString>
+</gmd:postalCode>
+<gmd:country>
+<gmd:Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="AU" codeSpace="ISO3166-1">AU</gmd:Country>
+</gmd:country>
+<gmd:electronicMailAddress>
+<gco:CharacterString>vegetation.metadata@environment.gov.au</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+<gmd:onlineResource>
+<gmd:CI_OnlineResource>
+<gmd:linkage>
+<gmd:URL>http://www.environment.gov.au/</gmd:URL>
+</gmd:linkage>
+</gmd:CI_OnlineResource>
+</gmd:onlineResource>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" codeSpace="ISOTC211/19115">custodian</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:citedResponsibleParty>
+<gmd:citedResponsibleParty>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>
+Australian Government Department of the Environment
+</gco:CharacterString>
+</gmd:organisationName>
+<gmd:positionName>
+<gco:CharacterString>Metadata Publisher</gco:CharacterString>
+</gmd:positionName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:phone>
+<gmd:CI_Telephone>
+<gmd:voice>
+<gco:CharacterString>(02) 6274 1111</gco:CharacterString>
+</gmd:voice>
+<gmd:facsimile>
+<gco:CharacterString>(02) 6274 1333</gco:CharacterString>
+</gmd:facsimile>
+</gmd:CI_Telephone>
+</gmd:phone>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:deliveryPoint>
+<gco:CharacterString>GPO Box 787</gco:CharacterString>
+</gmd:deliveryPoint>
+<gmd:city>
+<gco:CharacterString>CANBERRA</gco:CharacterString>
+</gmd:city>
+<gmd:administrativeArea>
+<gco:CharacterString>ACT</gco:CharacterString>
+</gmd:administrativeArea>
+<gmd:postalCode>
+<gco:CharacterString>2601</gco:CharacterString>
+</gmd:postalCode>
+<gmd:country>
+<gmd:Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="AU" codeSpace="ISO3166-1">AU</gmd:Country>
+</gmd:country>
+<gmd:electronicMailAddress>
+<gco:CharacterString>metadata@environment.gov.au</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+<gmd:onlineResource>
+<gmd:CI_OnlineResource>
+<gmd:linkage>
+<gmd:URL>http://www.environment.gov.au/</gmd:URL>
+</gmd:linkage>
+</gmd:CI_OnlineResource>
+</gmd:onlineResource>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115">publisher</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:citedResponsibleParty>
+<gmd:presentationForm>
+<gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="tableDigital" codeSpace="ISOTC211/19115">tableDigital</gmd:CI_PresentationFormCode>
+</gmd:presentationForm>
+</gmd:CI_Citation>
+</gmd:citation>
+<gmd:abstract>
+<gco:CharacterString>
+This raster dataset 'NVIS4_1_AUST_MVG_PRE_ALB' provides summary information on Australia's estimated Pre-1750 (pre-European or pre-clearing) native vegetation. It is in Albers Equal Area projection with a 100 m x 100 m (1 Ha) cell size. A comparable Extant raster dataset is available: - NVIS4_1_AUST_MVG_EXT_ALB. State and Territory vegetation mapping agencies supplied a new version of the National Vegetation Information System (NVIS) in 2009-2011. Some agencies did not supply new data for this version but approved re-use of Version 3.1 data. Summaries were derived from the best available data in the NVIS extant theme as at June 2012. This product is derived from a compilation of data collected at different scales on different dates by different organisations/sources. Please refer to the separate key map showing scales of the input datasets. Gaps in the NVIS database were filled by non-NVIS data. Major Vegetation Groups were identified to summarise the type and distribution of Australia's native vegetation before European settlement. The classification contains different mixes of plant species within the canopy, shrub or ground layers, but are structurally similar and are often dominated by a single genus. In a mapping sense, the groups reflect the dominant vegetation occurring in a map unit from a mix of several vegetation types. Subdominant vegetation groups which are also present in the map unit are not shown. For example, the dominant vegetation in an area may be mapped as dominated by eucalypt open forest, although it contains pockets of rainforest, shrubland and grassland vegetation as subdominants. The (related) Major Vegetation Subgroups represent more detailed subdominant vegetation groups within Major Vegetation Groups and are available as separate raster datasets: - NVIS4_1_AUST_MVS_EXT_ALB - NVIS4_1_AUST_MVS_PRE_ALB A number of other non-vegetation and non-native vegetation land cover types are also represented as Major Vegetation Groups. These are provided for cartographic purposes, but should not be used for analyses. For further background and other NVIS products, please see the links on http://www.environment.gov.au/erin/nvis/index.html.
+</gco:CharacterString>
+</gmd:abstract>
+<gmd:credit>
+<gco:CharacterString>
+This raster product is modelled from data originally supplied by the states and territories. DSEWPaC acknowledges the following departments/organisations - - ACT Environment and Sustainable Development Directorate - NSW Office of Environment and Heritage - NT Department of Natural Resources, Environment, The Arts and Sport - QLD Department of Science, Information Technology, Innovation and the Arts (QLD Herbarium) - SA Department of Environment and Natural Resources - TAS Department of Primary Industries, Parks, Water and the Environment - VIC Department of Sustainability and Environment - WA Department of Agriculture and Food - Geoscience Australia
+</gco:CharacterString>
+</gmd:credit>
+<gmd:status>
+<gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115">completed</gmd:MD_ProgressCode>
+</gmd:status>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>
+Australian Government Department of the Environment
+</gco:CharacterString>
+</gmd:organisationName>
+<gmd:positionName>
+<gco:CharacterString>Vegetation Data Manager</gco:CharacterString>
+</gmd:positionName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:phone>
+<gmd:CI_Telephone>
+<gmd:voice>
+<gco:CharacterString>02 6274 1111</gco:CharacterString>
+</gmd:voice>
+<gmd:facsimile>
+<gco:CharacterString>02 6274 1666</gco:CharacterString>
+</gmd:facsimile>
+</gmd:CI_Telephone>
+</gmd:phone>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:deliveryPoint>
+<gco:CharacterString>GPO Box 787</gco:CharacterString>
+</gmd:deliveryPoint>
+<gmd:city>
+<gco:CharacterString>Canberra</gco:CharacterString>
+</gmd:city>
+<gmd:administrativeArea>
+<gco:CharacterString>ACT</gco:CharacterString>
+</gmd:administrativeArea>
+<gmd:postalCode>
+<gco:CharacterString>2601</gco:CharacterString>
+</gmd:postalCode>
+<gmd:country>
+<gmd:Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="AU" codeSpace="ISO3166-1">AU</gmd:Country>
+</gmd:country>
+<gmd:electronicMailAddress>
+<gco:CharacterString>vegetation.metadata@environment.gov.au</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+<gmd:onlineResource>
+<gmd:CI_OnlineResource>
+<gmd:linkage>
+<gmd:URL>http://www.environment.gov.au/</gmd:URL>
+</gmd:linkage>
+</gmd:CI_OnlineResource>
+</gmd:onlineResource>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:resourceMaintenance>
+<gmd:MD_MaintenanceInformation>
+<gmd:maintenanceAndUpdateFrequency>
+<gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="ISOTC211/19115">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+</gmd:maintenanceAndUpdateFrequency>
+</gmd:MD_MaintenanceInformation>
+</gmd:resourceMaintenance>
+<gmd:resourceFormat>
+<gmd:MD_Format>
+<gmd:name>
+<gco:CharacterString>SDE Raster Dataset</gco:CharacterString>
+</gmd:name>
+<gmd:version>
+<gco:CharacterString>1</gco:CharacterString>
+</gmd:version>
+</gmd:MD_Format>
+</gmd:resourceFormat>
+<gmd:descriptiveKeywords>
+<gmd:MD_Keywords>
+<gmd:keyword>
+<gco:CharacterString>FLORA Native_Mapping</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>FORESTS Natural_Mapping</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>LAND Cover_Mapping</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>VEGETATION_Mapping</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>VEGETATION_Classification</gco:CharacterString>
+</gmd:keyword>
+<gmd:type>
+<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</gmd:MD_KeywordTypeCode>
+</gmd:type>
+<gmd:thesaurusName>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>ANZLIC Search Words</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:Date>2008-05-15</gco:Date>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+<gmd:edition>
+<gco:CharacterString>Version 2.1</gco:CharacterString>
+</gmd:edition>
+<gmd:editionDate>
+<gco:Date>2008-05-15</gco:Date>
+</gmd:editionDate>
+</gmd:CI_Citation>
+</gmd:thesaurusName>
+</gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords>
+<gmd:MD_Keywords>
+<gmd:keyword>
+<gco:CharacterString>Offline Data</gco:CharacterString>
+</gmd:keyword>
+<gmd:thesaurusName uuidref="723f6998-058e-11dc-8314-0800200c9a66"/>
+</gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+<gmd:resourceConstraints>
+<gmd:MD_LegalConstraints>
+<gmd:accessConstraints>
+<gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="license" codeSpace="ISOTC211/19115">license</gmd:MD_RestrictionCode>
+</gmd:accessConstraints>
+<gmd:otherConstraints>
+<gco:CharacterString>Departmental Deed</gco:CharacterString>
+</gmd:otherConstraints>
+</gmd:MD_LegalConstraints>
+</gmd:resourceConstraints>
+<gmd:resourceConstraints>
+<gmd:MD_LegalConstraints>
+<gmd:accessConstraints>
+<gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="license" codeSpace="ISOTC211/19115">license</gmd:MD_RestrictionCode>
+</gmd:accessConstraints>
+<gmd:otherConstraints>
+<gco:CharacterString>
+Any use of the data in publications should acknowledge the State/Territory data custodians and Department of the Environment, Water, Population and Communities (DSEWPaC), Australian Government - see Source Data.
+</gco:CharacterString>
+</gmd:otherConstraints>
+</gmd:MD_LegalConstraints>
+</gmd:resourceConstraints>
+<gmd:resourceConstraints>
+<gmd:MD_LegalConstraints>
+<gmd:useConstraints>
+<gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="license" codeSpace="ISOTC211/19115">license</gmd:MD_RestrictionCode>
+</gmd:useConstraints>
+<gmd:otherConstraints>
+<gco:CharacterString>
+Users should be aware that MVGs were derived from data at a range of dates, scales and reliabilities. This version was based on improved NVIS data from each State and Territory. Collection scale, more-detailed vegetation floristic and structural data and/or more-consistent interpretations have been improved for many parts of Australia. Therefore, it would not be valid to compare this version quantitatively with earlier version(s) of NVIS. Non-vegetation and non-native vegetation major vegetation classes are not to be used in quantitative analyses. Disclaimers: ACT: This data in based on data provided by Environment ACT, part of the ACT Government and the Department of Urban Services (now the Environment and Sustainable Development Directorate). It does not represent official ACT Government data. QLD: While every care is taken to ensure the accuracy of the Information Product, the Environmental Protection Agency makes no representation or warranties about its accuracy, reliability, completeness or suitability for any particular purpose and disclaims all responsibility and all liability (including without limitation, liability in negligence) for all expenses, losses, damages (including indirect or consequential damage) and costs which you might incur as a result of the product being inaccurate or incomplete in any way and for any reason. VIC: The State of Victoria does not warrant the accuracy or completeness of information in this publication and any person using or relying upon such information does so on the basis that the State of Victoria shall bear no responsibility or liability whatsoever for any errors, faults, defects or omissions in the information.
+</gco:CharacterString>
+</gmd:otherConstraints>
+</gmd:MD_LegalConstraints>
+</gmd:resourceConstraints>
+<gmd:spatialRepresentationType>
+<gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid" codeSpace="ISOTC211/19115">grid</gmd:MD_SpatialRepresentationTypeCode>
+</gmd:spatialRepresentationType>
+<gmd:spatialResolution>
+<gmd:MD_Resolution>
+<gmd:distance>
+<gco:Distance uom="Meters">100</gco:Distance>
+</gmd:distance>
+</gmd:MD_Resolution>
+</gmd:spatialResolution>
+<gmd:language>
+<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</gmd:LanguageCode>
+</gmd:language>
+<gmd:characterSet>
+<gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</gmd:MD_CharacterSetCode>
+</gmd:characterSet>
+<gmd:topicCategory>
+<gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+</gmd:topicCategory>
+<gmd:environmentDescription>
+<gco:CharacterString>
+Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348
+</gco:CharacterString>
+</gmd:environmentDescription>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:geographicElement>
+<gmd:EX_GeographicBoundingBox>
+<gmd:extentTypeCode>
+<gco:Boolean>true</gco:Boolean>
+</gmd:extentTypeCode>
+<gmd:westBoundLongitude>
+<gco:Decimal>109.518102</gco:Decimal>
+</gmd:westBoundLongitude>
+<gmd:eastBoundLongitude>
+<gco:Decimal>157.213422</gco:Decimal>
+</gmd:eastBoundLongitude>
+<gmd:southBoundLatitude>
+<gco:Decimal>-44.309277</gco:Decimal>
+</gmd:southBoundLatitude>
+<gmd:northBoundLatitude>
+<gco:Decimal>-8.139869</gco:Decimal>
+</gmd:northBoundLatitude>
+</gmd:EX_GeographicBoundingBox>
+</gmd:geographicElement>
+</gmd:EX_Extent>
+</gmd:extent>
+<gmd:supplementalInformation>
+<gco:CharacterString>published externally</gco:CharacterString>
+</gmd:supplementalInformation>
+</gmd:MD_DataIdentification>
+</gmd:identificationInfo>
+<gmd:distributionInfo>
+<gmd:MD_Distribution>
+<gmd:distributionFormat>
+<gmd:MD_Format>
+<gmd:name>
+<gco:CharacterString>SDE Raster Dataset</gco:CharacterString>
+</gmd:name>
+<gmd:version gco:nilReason="missing"/>
+</gmd:MD_Format>
+</gmd:distributionFormat>
+<gmd:distributor>
+<gmd:MD_Distributor>
+<gmd:distributorContact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>
+Australian Government Department of the Environment
+</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:phone>
+<gmd:CI_Telephone>
+<gmd:voice>
+<gco:CharacterString>(02) 6274 1111</gco:CharacterString>
+</gmd:voice>
+<gmd:facsimile>
+<gco:CharacterString>(02) 6274 1333</gco:CharacterString>
+</gmd:facsimile>
+</gmd:CI_Telephone>
+</gmd:phone>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:deliveryPoint>
+<gco:CharacterString>GPO Box 787</gco:CharacterString>
+</gmd:deliveryPoint>
+<gmd:city>
+<gco:CharacterString>CANBERRA</gco:CharacterString>
+</gmd:city>
+<gmd:administrativeArea>
+<gco:CharacterString>ACT</gco:CharacterString>
+</gmd:administrativeArea>
+<gmd:postalCode>
+<gco:CharacterString>2601</gco:CharacterString>
+</gmd:postalCode>
+<gmd:country>
+<gmd:Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="AU" codeSpace="ISO3166-1">AU</gmd:Country>
+</gmd:country>
+<gmd:electronicMailAddress>
+<gco:CharacterString>metadata@environment.gov.au</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+<gmd:onlineResource>
+<gmd:CI_OnlineResource>
+<gmd:linkage>
+<gmd:URL>http://www.environment.gov.au</gmd:URL>
+</gmd:linkage>
+</gmd:CI_OnlineResource>
+</gmd:onlineResource>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="ISOTC211/19115">distributor</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:distributorContact>
+<gmd:distributorFormat>
+<gmd:MD_Format>
+<gmd:name>
+<gco:CharacterString>ArcGIS File geodatabase</gco:CharacterString>
+</gmd:name>
+<gmd:version>
+<gco:CharacterString>1</gco:CharacterString>
+</gmd:version>
+</gmd:MD_Format>
+</gmd:distributorFormat>
+<gmd:distributorFormat>
+<gmd:MD_Format>
+<gmd:name>
+<gco:CharacterString>ArcInfo grid</gco:CharacterString>
+</gmd:name>
+<gmd:version>
+<gco:CharacterString>1</gco:CharacterString>
+</gmd:version>
+</gmd:MD_Format>
+</gmd:distributorFormat>
+<gmd:distributorTransferOptions>
+<gmd:MD_DigitalTransferOptions/>
+</gmd:distributorTransferOptions>
+</gmd:MD_Distributor>
+</gmd:distributor>
+</gmd:MD_Distribution>
+</gmd:distributionInfo>
+<gmd:dataQualityInfo>
+<gmd:DQ_DataQuality>
+<gmd:scope>
+<gmd:DQ_Scope>
+<gmd:level>
+<gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</gmd:MD_ScopeCode>
+</gmd:level>
+</gmd:DQ_Scope>
+</gmd:scope>
+<gmd:report>
+<gmd:DQ_AbsoluteExternalPositionalAccuracy>
+<gmd:result>
+<gmd:DQ_ConformanceResult>
+<gmd:specification>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>Absolute External Positional Accuracy Check</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:Date>2000-01-01</gco:Date>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+</gmd:CI_Citation>
+</gmd:specification>
+<gmd:explanation>
+<gco:CharacterString>
+The positional accuracy depends on the source data. Data sources used and the quality of the mapped information should be obtained from the separate key map for the NVIS pre1750 theme (see Key Layers data). The input data were checked by ERIN for the geographic coordinate system and correct datum. For vector data, the GDA94 was adopted as standard but any input data using WGS84 was re-defined as GDA94. Final rasters for MVGs were then reprojected to Albers Equal Area for ease of analysis. Further information on particular datasets is available from the data custodians.
+</gco:CharacterString>
+</gmd:explanation>
+<gmd:pass>
+<gco:Boolean>true</gco:Boolean>
+</gmd:pass>
+</gmd:DQ_ConformanceResult>
+</gmd:result>
+</gmd:DQ_AbsoluteExternalPositionalAccuracy>
+</gmd:report>
+<gmd:report>
+<gmd:DQ_NonQuantitativeAttributeAccuracy>
+<gmd:result>
+<gmd:DQ_ConformanceResult>
+<gmd:specification>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>Non Quantitative Attribute Accuracy Check</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:Date>2000-01-01</gco:Date>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+</gmd:CI_Citation>
+</gmd:specification>
+<gmd:explanation>
+<gco:CharacterString>
+The information is based on the data in the National Vegetation Information System, other mapped vegetation information, expert advice and key references. The Major Vegetation Groups (MVGs) represent an aggregation of the vegetation structure, floristic and association information that attempts to unify variations in nomenclature, anomalies in assigned ecological dominance and helps overcome any bias in the data sourced from different projects. A detailed profile of each MVG for the previous version of NVIS is available in the Australian Native Vegetation Assessment 2001 at URL http://audit.deh.gov.au/ANRA/vegetation/docs/Native_vegetation/nat_veg_contents.cfm. See Lineage for the creation of the MVG legend. See Completeness for further information on the completeness of the attribution.
+</gco:CharacterString>
+</gmd:explanation>
+<gmd:pass>
+<gco:Boolean>true</gco:Boolean>
+</gmd:pass>
+</gmd:DQ_ConformanceResult>
+</gmd:result>
+</gmd:DQ_NonQuantitativeAttributeAccuracy>
+</gmd:report>
+</gmd:DQ_DataQuality>
+</gmd:dataQualityInfo>
+</gmd:MD_Metadata>
